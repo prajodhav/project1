@@ -9,6 +9,7 @@ public class Hello {
 	@GetMapping ("/hello")
 	public String sayHello() {
 		System.out.println("Running now");
+		System.out.println("Running now2");
 		return "<h1>Hello World</h1>";
 	}
 }
